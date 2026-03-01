@@ -1,0 +1,14 @@
+[project]
+name = "topsis-akshit-102317091"
+version = "0.1.0"
+description = "Simple student analysis tools"
+readme = "README.md"
+authors = [
+    { name = "Akshit Vats", email = "akshit.r.vats@gmail.com" }
+]
+license = { file = "MIT" }
+requires-python = ">=3.8"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

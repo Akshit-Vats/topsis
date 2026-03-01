@@ -1,0 +1,15 @@
+# studenttools
+
+A simple Python package for student performance analysis.
+
+## Features
+- Grade calculation
+- Performance tracking
+- Percentage conversion
+
+## Installation
+pip install topsis-akshit-102317091
+
+## Usage
+```python
+from stopsis-akshit-102317091 import GradeCalculator
