@@ -46,7 +46,7 @@ def index():
 
         run_topsis(input_path, weights, impacts, output_path)
 
-        send_email(email, output_path)
+        #send_email(email, output_path)
 
         return "Result sent to your email!"
 
