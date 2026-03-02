@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOPSIS Calculator</title>
+</head>
+<body>
+    <h2>TOPSIS Assignment</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload CSV File:</label><br>
+        <input type="file" name="file" required><br><br>
+
+        <label>Weights (comma separated):</label><br>
+        <input type="text" name="weights" placeholder="1,1,1" required><br><br>
+
+        <label>Impacts (comma separated + or -):</label><br>
+        <input type="text" name="impacts" placeholder="+,+,-" required><br><br>
+
+        <label>Email ID:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
