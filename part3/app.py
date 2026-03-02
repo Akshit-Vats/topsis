@@ -14,7 +14,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 def send_email(receiver_email, file_path):
     msg = EmailMessage()
     msg["Subject"] = "Your TOPSIS Result"
-    msg["From"] = "akshit.r.vats@gmail.com"
+    msg["From"] = "EMAIL_NAME"
     msg["To"] = receiver_email
     msg.set_content("Attached is your TOPSIS result file.")
 
@@ -27,7 +27,7 @@ def send_email(receiver_email, file_path):
 
     # Gmail SMTP
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login("akshit.r.vats@gmail.com", "zszc oebf nmml otvu")
+        smtp.login("EMAIL_NAME", "EMAIL_PASS")
         smtp.send_message(msg)
 
 
